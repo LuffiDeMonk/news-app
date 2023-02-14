@@ -1,0 +1,61 @@
+.wrapper {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.search-control {
+  position: relative;
+}
+.search-control input {
+  padding-left: 1.8rem;
+  border-radius: 999px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.search-icon {
+  position: absolute;
+  padding-top: 0.4rem;
+  padding-left: 0.5rem;
+}
+.navbar-heading {
+  top: 6px;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.hamburgerIcon {
+  cursor: pointer;
+}
+.icon-container {
+  width: 40%;
+}
+.icon-container .icon {
+  cursor: pointer;
+}
+.offcanvas {
+  width: 20rem !important;
+}
+.offcanvas-list {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 1.5rem;
+}
+.offcanvas-list .li {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.offcanvas-list .li:hover {
+  color: orangered;
+}
+@media only screen and (max-width: 768px) {
+  .search-control input {
+    width: 100%;
+    margin-top: 0.4rem;
+  }
+  .icon-container {
+    width: 20%;
+  }
+}

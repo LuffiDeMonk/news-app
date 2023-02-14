@@ -1,0 +1,20 @@
+#scrollableDiv {
+  overflow: auto;
+}
+.category-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.category-title::before,
+.category-title::after {
+  content: "'";
+}
+@media only screen and (max-width: 576px) {
+  .category {
+    font-size: 1rem;
+  }
+  .category-title {
+    font-size: 1.5rem;
+  }
+}
