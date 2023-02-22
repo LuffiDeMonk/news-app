@@ -22,7 +22,7 @@ const Carousel = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          {data !== 0 ? (
+          {data.length !== 0 ? (
             data.map((item, index) => {
               return (
                 <React.Fragment key={index}>
